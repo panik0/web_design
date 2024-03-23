@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>La mia lista della spesa</title>
+        <link rel="stylesheet" type="text/css" href="stile.css">
+          </head>
+          <body>
+            <header class="header">
+                <h1>La mia lista della spesa</h1>
+            </header>
+            <p>Ricordati di comprare la verdura al mercato</p>
+            <ul>
+                <li>zucchine</li>
+                <li class="blue">pomodori</li>
+                <li>riso</li>
+            
+            </ul>
+            
+            <h2>Spesa per strudel di sabato</h2>
+            <ol>
+                <li>cannella</li>
+                <li>pasta sfoglia</li>
+                <li>mele</li>
+                <li>uva</li>
+                <li>noci</li>
+            
+            </ol>
+        </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

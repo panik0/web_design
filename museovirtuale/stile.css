@@ -1,0 +1,58 @@
+header{
+    background-color: black;
+}
+h1{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+main{
+    background-color: red;
+}
+h2{
+    color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 9fr 9fr 9fr ;
+    grid-template-rows: 3fr 3fr;
+}
+img{
+    width: 100%;
+    max-width: fit-content;
+    height: 300px;
+    max-height: fit-content;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 3px;
+}    
+.flexbox {
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+footer {
+        background-color: grey;
+}    
+a{
+    color: aqua;
+    text-align: center;
+}
+a:hover{
+    color: blueviolet;
+}
+
+
+
