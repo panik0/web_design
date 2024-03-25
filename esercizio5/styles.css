@@ -1,5 +1,7 @@
-
-@media screen and (max-width:600px){
+h1{
+    color: black;
+}
+@media (max-width:600px){
     h1{
     color: green;
     }
@@ -7,7 +9,7 @@
 img{
     width:100%;
 }
-@media screen and (max-width:800px){
+@media (max-width:800px){
     img{
     width: 49%;
     }
