@@ -1,0 +1,29 @@
+.primo{
+    width: 200px;
+    height: 100px;
+    background-color: magenta;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+
+}
+
+.primo:hover{
+    transform: translateX(50px);
+}
+.secondo{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    animation-duration: 2s;
+    animation-name: animazione;
+    animation-iteration-count: infinite;
+}
+@keyframes animazione {
+    0%{
+        background-color:blue;
+    }
+    100%{
+        background-color:red;
+    }
+}
